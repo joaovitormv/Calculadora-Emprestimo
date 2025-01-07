@@ -15,8 +15,8 @@
 @foreach ($dados as $item)
 <div class="row">
     <div class="col-md-3">{{$item["mes"]}}</div>
-    <div class="col-md-6">R$ {{$item["restante"]}}</div>
-    <div class="col-md-3">R$ {{$item["capitalAtualizado"]}}</div>
+    <div class="col-md-3">R$ {{$item["restante"]}}</div>
+    <div class="col-md-3">R$ {{$item["valorAtualizado"]}}</div>
     <div class="col-md-3">R$ {{$item["parcela"]}}</div>
 </div>
 
